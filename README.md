@@ -1,5 +1,7 @@
 # Ansible Role: Jenkins CI
 
+## FIXED versions for Debian with new Ansible version which does not accept conditionals. Conditionals were removed from this fork so it runs without errors
+
 [![CI](https://github.com/geerlingguy/ansible-role-jenkins/actions/workflows/ci.yml/badge.svg)](https://github.com/geerlingguy/ansible-role-jenkins/actions/workflows/ci.yml)
 
 Installs Jenkins CI on RHEL/CentOS and Debian/Ubuntu servers.
